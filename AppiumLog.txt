@@ -1,0 +1,261 @@
+2023-02-13 23:35:21:705 [Appium] Welcome to Appium v1.22.3
+2023-02-13 23:35:21:705 [Appium] Non-default server args:
+2023-02-13 23:35:21:705 [Appium]   address: 127.0.0.1
+2023-02-13 23:35:21:705 [Appium]   logFile: /Users/williamsoares/IdeaProjects/MobileAutomation/AppiumLog.txt
+2023-02-13 23:35:21:720 [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2023-02-13 23:35:22:051 [HTTP] --> GET /wd/hub/status
+2023-02-13 23:35:22:052 [HTTP] {}
+2023-02-13 23:35:22:053 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2023-02-13 23:35:22:054 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2023-02-13 23:35:22:058 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2023-02-13 23:35:22:058 [HTTP] 
+2023-02-13 23:35:22:607 [HTTP] Request idempotency key: c4ee77d1-a695-470e-baa8-b0acb5e477cc
+2023-02-13 23:35:22:613 [HTTP] --> POST /wd/hub/session
+2023-02-13 23:35:22:613 [HTTP] {"desiredCapabilities":{"app":"/Users/williamsoares/Downloads/amazon.apk","platformName":"Android","udid":"67c3cacf"},"capabilities":{"firstMatch":[{"appium:app":"/Users/williamsoares/Downloads/amazon.apk","platformName":"android","appium:udid":"67c3cacf"}]}}
+2023-02-13 23:35:22:613 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/williamsoares/Downloads/amazon.apk","platformName":"Android","udid":"67c3cacf"},null,{"firstMatch":[{"appium:app":"/Users/williamsoares/Downloads/amazon.apk","platformName":"android","appium:udid":"67c3cacf"}]}]
+2023-02-13 23:35:22:613 [BaseDriver] Event 'newSessionRequested' logged at 1676331322613 (20:35:22 GMT-0300 (Brasilia Standard Time))
+2023-02-13 23:35:22:616 [Appium] 
+2023-02-13 23:35:22:616 [Appium] ======================================================================
+2023-02-13 23:35:22:616 [Appium]   DEPRECATION WARNING:
+2023-02-13 23:35:22:616 [Appium] 
+2023-02-13 23:35:22:616 [Appium]   The 'automationName' capability was not provided in the desired 
+2023-02-13 23:35:22:616 [Appium]   capabilities for this Android session
+2023-02-13 23:35:22:616 [Appium] 
+2023-02-13 23:35:22:616 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2023-02-13 23:35:22:616 [Appium]   UiAutomator2 Driver
+2023-02-13 23:35:22:616 [Appium] 
+2023-02-13 23:35:22:616 [Appium]   The next major version of Appium (2.x) will **require** the 
+2023-02-13 23:35:22:616 [Appium]   'automationName' capability to be set for all sessions on all 
+2023-02-13 23:35:22:616 [Appium]   platforms
+2023-02-13 23:35:22:616 [Appium] 
+2023-02-13 23:35:22:616 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2023-02-13 23:35:22:616 [Appium]   'automationName=UiAutomator1'
+2023-02-13 23:35:22:616 [Appium] 
+2023-02-13 23:35:22:616 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2023-02-13 23:35:22:616 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2023-02-13 23:35:22:616 [Appium] 
+2023-02-13 23:35:22:616 [Appium]   For more information about drivers, please visit 
+2023-02-13 23:35:22:616 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2023-02-13 23:35:22:616 [Appium]   'Drivers' menu
+2023-02-13 23:35:22:616 [Appium] 
+2023-02-13 23:35:22:616 [Appium] ======================================================================
+2023-02-13 23:35:22:616 [Appium] 
+2023-02-13 23:35:22:707 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2023-02-13 23:35:22:708 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2023-02-13 23:35:22:708 [BaseDriver] Creating session with W3C capabilities: {
+2023-02-13 23:35:22:708 [BaseDriver]   "alwaysMatch": {
+2023-02-13 23:35:22:708 [BaseDriver]     "platformName": "android",
+2023-02-13 23:35:22:708 [BaseDriver]     "appium:app": "/Users/williamsoares/Downloads/amazon.apk",
+2023-02-13 23:35:22:708 [BaseDriver]     "appium:udid": "67c3cacf"
+2023-02-13 23:35:22:708 [BaseDriver]   },
+2023-02-13 23:35:22:708 [BaseDriver]   "firstMatch": [
+2023-02-13 23:35:22:708 [BaseDriver]     {}
+2023-02-13 23:35:22:708 [BaseDriver]   ]
+2023-02-13 23:35:22:708 [BaseDriver] }
+2023-02-13 23:35:22:711 [BaseDriver] Session created with session id: 51d2777f-88a9-4514-bc9a-f497de721179
+2023-02-13 23:35:22:712 [BaseDriver] Using local app '/Users/williamsoares/Downloads/amazon.apk'
+2023-02-13 23:35:22:712 [UiAutomator2] Checking whether app is actually present
+2023-02-13 23:35:22:735 [ADB] Found 1 'build-tools' folders under '/Users/williamsoares/Library/Android/sdk' (newest first):
+2023-02-13 23:35:22:735 [ADB]     /Users/williamsoares/Library/Android/sdk/build-tools/33.0.1
+2023-02-13 23:35:22:735 [ADB] Using 'adb' from '/Users/williamsoares/Library/Android/sdk/platform-tools/adb'
+2023-02-13 23:35:22:735 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2023-02-13 23:35:22:776 [AndroidDriver] Retrieving device list
+2023-02-13 23:35:22:776 [ADB] Trying to find a connected android device
+2023-02-13 23:35:22:776 [ADB] Getting connected devices
+2023-02-13 23:35:22:801 [ADB] Connected devices: [{"udid":"67c3cacf","state":"device"}]
+2023-02-13 23:35:22:801 [AndroidDriver] Using device: 67c3cacf
+2023-02-13 23:35:22:802 [ADB] Using 'adb' from '/Users/williamsoares/Library/Android/sdk/platform-tools/adb'
+2023-02-13 23:35:22:802 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2023-02-13 23:35:22:828 [ADB] Setting device id to 67c3cacf
+2023-02-13 23:35:22:828 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell getprop ro.build.version.sdk'
+2023-02-13 23:35:22:938 [ADB] Current device property 'ro.build.version.sdk': 29
+2023-02-13 23:35:22:938 [ADB] Getting device platform version
+2023-02-13 23:35:22:938 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell getprop ro.build.version.release'
+2023-02-13 23:35:23:010 [ADB] Current device property 'ro.build.version.release': 10
+2023-02-13 23:35:23:010 [ADB] Device API level: 29
+2023-02-13 23:35:23:010 [UiAutomator2] Relaxing hidden api policy
+2023-02-13 23:35:23:010 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2023-02-13 23:35:23:392 [AndroidDriver] Parsing package and activity from app manifest
+2023-02-13 23:35:23:418 [ADB] Package name: 'com.amazon.mShop.android.shopping'
+2023-02-13 23:35:23:418 [ADB] Main activity name: 'com.amazon.mShop.home.HomeActivity'
+2023-02-13 23:35:23:418 [AndroidDriver] Parsed package and activity are: com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity
+2023-02-13 23:35:23:419 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf wait-for-device'
+2023-02-13 23:35:23:459 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell echo ping'
+2023-02-13 23:35:23:511 [AndroidDriver] Pushing settings apk to device...
+2023-02-13 23:35:23:512 [ADB] Getting install status for io.appium.settings
+2023-02-13 23:35:23:512 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell dumpsys package io.appium.settings'
+2023-02-13 23:35:23:640 [ADB] 'io.appium.settings' is installed
+2023-02-13 23:35:23:640 [ADB] Getting package info for 'io.appium.settings'
+2023-02-13 23:35:23:641 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell dumpsys package io.appium.settings'
+2023-02-13 23:35:23:744 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2023-02-13 23:35:23:744 [ADB] There is no need to install/upgrade '/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2023-02-13 23:35:23:745 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-02-13 23:35:23:745 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell 'pgrep --help; echo $?''
+2023-02-13 23:35:23:837 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2023-02-13 23:35:23:966 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-02-13 23:35:23:967 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2023-02-13 23:35:24:094 [ADB] Starting Appium Settings app
+2023-02-13 23:35:24:095 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell am start -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER'
+2023-02-13 23:35:24:275 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-02-13 23:35:24:275 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2023-02-13 23:35:24:687 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-02-13 23:35:24:688 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2023-02-13 23:35:24:818 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell appops set io.appium.settings android:mock_location allow'
+2023-02-13 23:35:24:941 [Logcat] Starting logs capture with command: /Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf logcat -v threadtime
+2023-02-13 23:35:25:007 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8200
+2023-02-13 23:35:25:008 [ADB] Forwarding system: 8200 to device: 6790
+2023-02-13 23:35:25:008 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf forward tcp:8200 tcp:6790'
+2023-02-13 23:35:25:037 [ADB] Getting install status for io.appium.uiautomator2.server
+2023-02-13 23:35:25:037 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell dumpsys package io.appium.uiautomator2.server'
+2023-02-13 23:35:25:163 [ADB] 'io.appium.uiautomator2.server' is installed
+2023-02-13 23:35:25:163 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2023-02-13 23:35:25:163 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell dumpsys package io.appium.uiautomator2.server'
+2023-02-13 23:35:25:295 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2023-02-13 23:35:25:295 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2023-02-13 23:35:25:295 [ADB] Checking app cert for /Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk
+2023-02-13 23:35:25:306 [ADB] Using 'apksigner.jar' from '/Users/williamsoares/Library/Android/sdk/build-tools/33.0.1/lib/apksigner.jar'
+2023-02-13 23:35:25:309 [ADB] Starting apksigner: /usr/bin/java -Xmx1024M -Xss1m -jar /Users/williamsoares/Library/Android/sdk/build-tools/33.0.1/lib/apksigner.jar verify --print-certs '/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk'
+2023-02-13 23:35:26:252 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-02-13 23:35:26:252 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-02-13 23:35:26:252 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-02-13 23:35:26:252 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-02-13 23:35:26:252 [ADB] 
+2023-02-13 23:35:26:253 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2023-02-13 23:35:26:253 [ADB] '/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2023-02-13 23:35:26:253 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2023-02-13 23:35:26:253 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell dumpsys package io.appium.uiautomator2.server.test'
+2023-02-13 23:35:26:388 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2023-02-13 23:35:26:388 [ADB] Checking app cert for /Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2023-02-13 23:35:26:391 [ADB] Starting apksigner: /usr/bin/java -Xmx1024M -Xss1m -jar /Users/williamsoares/Library/Android/sdk/build-tools/33.0.1/lib/apksigner.jar verify --print-certs '/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2023-02-13 23:35:26:630 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-02-13 23:35:26:630 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-02-13 23:35:26:630 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-02-13 23:35:26:630 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-02-13 23:35:26:630 [ADB] 
+2023-02-13 23:35:26:630 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2023-02-13 23:35:26:630 [ADB] '/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2023-02-13 23:35:26:630 [UiAutomator2] Server packages are not going to be (re)installed
+2023-02-13 23:35:26:631 [UiAutomator2] Waiting up to 30000ms for services to be available
+2023-02-13 23:35:26:631 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell pm list instrumentation'
+2023-02-13 23:35:26:730 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2023-02-13 23:35:26:731 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2023-02-13 23:35:26:732 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2023-02-13 23:35:26:732 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2023-02-13 23:35:26:888 [ADB] Checking app cert for /Users/williamsoares/Downloads/amazon.apk
+2023-02-13 23:35:26:996 [ADB] Starting apksigner: /usr/bin/java -Xmx1024M -Xss1m -jar /Users/williamsoares/Library/Android/sdk/build-tools/33.0.1/lib/apksigner.jar verify --print-certs /Users/williamsoares/Downloads/amazon.apk
+2023-02-13 23:35:27:465 [ADB] apksigner stdout: Signer #1 certificate DN: CN=Amazon Services LLC, OU="Java Object Signing O=Amazon Services LLC L=Las Vegas", ST="Nevada C=US"
+2023-02-13 23:35:27:465 [ADB] Signer #1 certificate SHA-256 digest: 2f19adeb284eb36f7f07786152b9a1d14b21653203ad0b04ebbf9c73ab6d7625
+2023-02-13 23:35:27:465 [ADB] Signer #1 certificate SHA-1 digest: a183524c3c8f8153aad02c0a346aef505fd397ea
+2023-02-13 23:35:27:465 [ADB] Signer #1 certificate MD5 digest: 97e83c003bded24445aefd4c72dc4b85
+2023-02-13 23:35:27:465 [ADB] 
+2023-02-13 23:35:27:465 [ADB] '/Users/williamsoares/Downloads/amazon.apk' is signed with a non-default certificate
+2023-02-13 23:35:27:465 [ADB] Getting install status for com.amazon.mShop.android.shopping
+2023-02-13 23:35:27:466 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell dumpsys package com.amazon.mShop.android.shopping'
+2023-02-13 23:35:27:744 [ADB] 'com.amazon.mShop.android.shopping' is installed
+2023-02-13 23:35:27:745 [ADB] Getting package info for 'com.amazon.mShop.android.shopping'
+2023-02-13 23:35:27:745 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell dumpsys package com.amazon.mShop.android.shopping'
+2023-02-13 23:35:27:863 [ADB] The version name of the installed 'com.amazon.mShop.android.shopping' is greater or equal to the application version name ('26.3.0' >= '26.3.0')
+2023-02-13 23:35:27:864 [ADB] There is no need to install/upgrade '/Users/williamsoares/Downloads/amazon.apk'
+2023-02-13 23:35:27:864 [AndroidDriver] Performing fast reset on 'com.amazon.mShop.android.shopping'
+2023-02-13 23:35:27:864 [ADB] Getting install status for com.amazon.mShop.android.shopping
+2023-02-13 23:35:27:864 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell dumpsys package com.amazon.mShop.android.shopping'
+2023-02-13 23:35:27:974 [ADB] 'com.amazon.mShop.android.shopping' is installed
+2023-02-13 23:35:27:975 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell am force-stop com.amazon.mShop.android.shopping'
+2023-02-13 23:35:28:106 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell pm clear com.amazon.mShop.android.shopping'
+2023-02-13 23:35:28:455 [AndroidDriver] Performed fast reset on the installed 'com.amazon.mShop.android.shopping' application (stop and clear)
+2023-02-13 23:35:28:456 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2023-02-13 23:35:28:491 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2023-02-13 23:35:28:491 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell am force-stop io.appium.uiautomator2.server.test'
+2023-02-13 23:35:28:621 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2023-02-13 23:35:28:622 [UiAutomator2] Using UIAutomator2 server from '/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2023-02-13 23:35:28:622 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2023-02-13 23:35:28:622 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","67c3cacf","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2023-02-13 23:35:28:625 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-02-13 23:35:28:626 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2023-02-13 23:35:28:632 [WD Proxy] socket hang up
+2023-02-13 23:35:29:635 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-02-13 23:35:29:635 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2023-02-13 23:35:29:646 [WD Proxy] socket hang up
+2023-02-13 23:35:30:647 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-02-13 23:35:30:648 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2023-02-13 23:35:30:655 [WD Proxy] socket hang up
+2023-02-13 23:35:30:796 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2023-02-13 23:35:31:658 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-02-13 23:35:31:659 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2023-02-13 23:35:31:673 [WD Proxy] socket hang up
+2023-02-13 23:35:32:674 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-02-13 23:35:32:674 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2023-02-13 23:35:32:762 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2023-02-13 23:35:32:763 [UiAutomator2] The initialization of the instrumentation process took 4141ms
+2023-02-13 23:35:32:763 [WD Proxy] Matched '/session' to command name 'createSession'
+2023-02-13 23:35:32:763 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/williamsoares/Downloads/amazon.apk","udid":"67c3cacf"},"platformName":"android","app":"/Users/williamsoares/Downloads/amazon.apk","udid":"67c3cacf","deviceName":"67c3cacf","deviceUDID":"67c3cacf","appPackage":"com.amazon.mShop.android.shopping"}],"alwaysMatch":{}}}
+2023-02-13 23:35:32:792 [WD Proxy] Got response with status 200: {"sessionId":"7e386d94-5a53-45a9-a518-1c54c144f85c","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/williamsoares/Downloads/amazon.apk","udid":"67c3cacf"},"platformName":"android","app":"/Users/williamsoares/Downloads/amazon.apk","udid":"67c3cacf","deviceName":"67c3cacf","deviceUDID":"67c3cacf","appPackage":"com.amazon.mShop.android.shopping"}],"alwaysMatch":{}},"sessionId":"7e386d94-5a53-45a9-a518-1c54c144f85c"}}
+2023-02-13 23:35:32:793 [WD Proxy] Determined the downstream protocol as 'W3C'
+2023-02-13 23:35:32:799 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/7e386d94-5a53-45a9-a518-1c54c144f85c/appium/device/info] with no body
+2023-02-13 23:35:32:856 [WD Proxy] Got response with status 200: {"sessionId":"7e386d94-5a53-45a9-a518-1c54c144f85c","value":{"androidId":"cbd540a627354944","apiVersion":"29","bluetooth":{"state":"OFF"},"brand":"xiaomi","carrierName":"TIM","displayDensity":440,"locale":"pt_BR","manufacturer":"Xiaomi","model":"Redmi Note 8","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":102400,"linkUpstreamBandwidthKbps":51200,"networkCapabilities":"NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"timbrasil.br","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_M...
+2023-02-13 23:35:32:856 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell dumpsys window'
+2023-02-13 23:35:33:013 [AndroidDriver] Screen already unlocked, doing nothing
+2023-02-13 23:35:33:013 [UiAutomator2] Starting 'com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity and waiting for 'com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity'
+2023-02-13 23:35:33:013 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell am start -W -n com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2023-02-13 23:35:36:349 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.amazon.mShop.android.shopping' and activity: 'com.amazon.mShop.home.HomeActivity' to be focused
+2023-02-13 23:35:36:350 [ADB] Possible activities, to be checked: 'com.amazon.mShop.home.HomeActivity', 'com.amazon.mShop.android.shopping.com.amazon.mShop.home.HomeActivity'
+2023-02-13 23:35:36:350 [ADB] Getting focused package and activity
+2023-02-13 23:35:36:350 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell dumpsys window displays'
+2023-02-13 23:35:36:461 [ADB] Found package: 'com.amazon.mShop.android.shopping' and fully qualified activity name : 'com.amazon.mShop.home.HomeActivity'
+2023-02-13 23:35:36:468 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/7e386d94-5a53-45a9-a518-1c54c144f85c/appium/device/pixel_ratio] with no body
+2023-02-13 23:35:36:482 [WD Proxy] Got response with status 200: {"sessionId":"7e386d94-5a53-45a9-a518-1c54c144f85c","value":2.75}
+2023-02-13 23:35:36:483 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2023-02-13 23:35:36:483 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/7e386d94-5a53-45a9-a518-1c54c144f85c/appium/device/system_bars] with no body
+2023-02-13 23:35:36:499 [WD Proxy] Got response with status 200: {"sessionId":"7e386d94-5a53-45a9-a518-1c54c144f85c","value":{"statusBar":80}}
+2023-02-13 23:35:36:500 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2023-02-13 23:35:36:500 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/7e386d94-5a53-45a9-a518-1c54c144f85c/window/current/size] with no body
+2023-02-13 23:35:36:520 [WD Proxy] Got response with status 200: {"sessionId":"7e386d94-5a53-45a9-a518-1c54c144f85c","value":{"height":2130,"width":1080}}
+2023-02-13 23:35:36:521 [Appium] New AndroidUiautomator2Driver session created successfully, session 51d2777f-88a9-4514-bc9a-f497de721179 added to master session list
+2023-02-13 23:35:36:521 [BaseDriver] Event 'newSessionStarted' logged at 1676331336521 (20:35:36 GMT-0300 (Brasilia Standard Time))
+2023-02-13 23:35:36:521 [W3C (51d2777f)] Cached the protocol value 'W3C' for the new session 51d2777f-88a9-4514-bc9a-f497de721179
+2023-02-13 23:35:36:522 [W3C (51d2777f)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/williamsoares/Downloads/amazon.apk","udid":"67c3cacf"},"platformName":"android","app":"/Users/williamsoares/Downloads/amazon.apk","udid":"67c3cacf","deviceName":"67c3cacf","deviceUDID":"67c3cacf","appPackage":"com.amazon.mShop.android.shopping","deviceApiLevel":29,"platformVersion":"10","deviceScreenSize":"1080x2340","deviceScreenDensity":440,"deviceModel":"Redmi Note 8","deviceManufacturer":"Xiaomi","pixelRatio":2.75,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2050}}}
+2023-02-13 23:35:36:523 [HTTP] <-- POST /wd/hub/session 200 13910 ms - 826
+2023-02-13 23:35:36:524 [HTTP] 
+2023-02-13 23:35:41:692 [HTTP] --> POST /wd/hub/session/51d2777f-88a9-4514-bc9a-f497de721179/element
+2023-02-13 23:35:41:693 [HTTP] {"using":"id","value":"com.amazon.mShop.android.shopping:id/skip_sign_in_button"}
+2023-02-13 23:35:41:696 [W3C (51d2777f)] Calling AppiumDriver.findElement() with args: ["id","com.amazon.mShop.android.shopping:id/skip_sign_in_button","51d2777f-88a9-4514-bc9a-f497de721179"]
+2023-02-13 23:35:41:696 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2023-02-13 23:35:41:696 [BaseDriver] Waiting up to 0 ms for condition
+2023-02-13 23:35:41:697 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-02-13 23:35:41:697 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/7e386d94-5a53-45a9-a518-1c54c144f85c/element] with body: {"strategy":"id","selector":"com.amazon.mShop.android.shopping:id/skip_sign_in_button","context":"","multiple":false}
+2023-02-13 23:35:51:900 [WD Proxy] Got response with status 200: {"sessionId":"7e386d94-5a53-45a9-a518-1c54c144f85c","value":{"ELEMENT":"00000000-0000-018a-ffff-ffff0000001f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-018a-ffff-ffff0000001f"}}
+2023-02-13 23:35:51:901 [W3C (51d2777f)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-018a-ffff-ffff0000001f","ELEMENT":"00000000-0000-018a-ffff-ffff0000001f"}
+2023-02-13 23:35:51:904 [HTTP] <-- POST /wd/hub/session/51d2777f-88a9-4514-bc9a-f497de721179/element 200 10210 ms - 137
+2023-02-13 23:35:51:904 [HTTP] 
+2023-02-13 23:35:51:944 [HTTP] --> POST /wd/hub/session/51d2777f-88a9-4514-bc9a-f497de721179/element/00000000-0000-018a-ffff-ffff0000001f/click
+2023-02-13 23:35:51:945 [HTTP] {"id":"00000000-0000-018a-ffff-ffff0000001f"}
+2023-02-13 23:35:51:947 [W3C (51d2777f)] Calling AppiumDriver.click() with args: ["00000000-0000-018a-ffff-ffff0000001f","51d2777f-88a9-4514-bc9a-f497de721179"]
+2023-02-13 23:35:51:947 [WD Proxy] Matched '/element/00000000-0000-018a-ffff-ffff0000001f/click' to command name 'click'
+2023-02-13 23:35:51:948 [WD Proxy] Proxying [POST /element/00000000-0000-018a-ffff-ffff0000001f/click] to [POST http://127.0.0.1:8200/wd/hub/session/7e386d94-5a53-45a9-a518-1c54c144f85c/element/00000000-0000-018a-ffff-ffff0000001f/click] with body: {"element":"00000000-0000-018a-ffff-ffff0000001f"}
+2023-02-13 23:36:22:290 [WD Proxy] Got response with status 200: {"sessionId":"7e386d94-5a53-45a9-a518-1c54c144f85c","value":null}
+2023-02-13 23:36:22:294 [W3C (51d2777f)] Responding to client with driver.click() result: null
+2023-02-13 23:36:22:295 [HTTP] <-- POST /wd/hub/session/51d2777f-88a9-4514-bc9a-f497de721179/element/00000000-0000-018a-ffff-ffff0000001f/click 200 30350 ms - 14
+2023-02-13 23:36:22:295 [HTTP] 
+2023-02-13 23:36:22:313 [HTTP] --> DELETE /wd/hub/session/51d2777f-88a9-4514-bc9a-f497de721179
+2023-02-13 23:36:22:313 [HTTP] {}
+2023-02-13 23:36:22:313 [W3C (51d2777f)] Calling AppiumDriver.deleteSession() with args: ["51d2777f-88a9-4514-bc9a-f497de721179"]
+2023-02-13 23:36:22:313 [BaseDriver] Event 'quitSessionRequested' logged at 1676331382313 (20:36:22 GMT-0300 (Brasilia Standard Time))
+2023-02-13 23:36:22:314 [Appium] Removing session 51d2777f-88a9-4514-bc9a-f497de721179 from our master session list
+2023-02-13 23:36:22:314 [UiAutomator2] Deleting UiAutomator2 session
+2023-02-13 23:36:22:315 [UiAutomator2] Deleting UiAutomator2 server session
+2023-02-13 23:36:22:315 [WD Proxy] Matched '/' to command name 'deleteSession'
+2023-02-13 23:36:22:315 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/7e386d94-5a53-45a9-a518-1c54c144f85c] with no body
+2023-02-13 23:36:22:344 [WD Proxy] Got response with status 200: {"sessionId":"7e386d94-5a53-45a9-a518-1c54c144f85c","value":null}
+2023-02-13 23:36:22:344 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell am force-stop com.amazon.mShop.android.shopping'
+2023-02-13 23:36:22:634 [Logcat] Stopping logcat capture
+2023-02-13 23:36:22:639 [ADB] Removing forwarded port socket connection: 8200 
+2023-02-13 23:36:22:639 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf forward --remove tcp:8200'
+2023-02-13 23:36:22:679 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2023-02-13 23:36:22:680 [ADB] Running '/Users/williamsoares/Library/Android/sdk/platform-tools/adb -P 5037 -s 67c3cacf shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2023-02-13 23:36:22:895 [BaseDriver] Event 'quitSessionFinished' logged at 1676331382895 (20:36:22 GMT-0300 (Brasilia Standard Time))
+2023-02-13 23:36:22:895 [W3C (51d2777f)] Received response: null
+2023-02-13 23:36:22:895 [W3C (51d2777f)] But deleting session, so not returning
+2023-02-13 23:36:22:896 [W3C (51d2777f)] Responding to client with driver.deleteSession() result: null
+2023-02-13 23:36:22:896 [HTTP] <-- DELETE /wd/hub/session/51d2777f-88a9-4514-bc9a-f497de721179 200 583 ms - 14
+2023-02-13 23:36:22:896 [HTTP] 
+2023-02-13 23:36:22:915 [Instrumentation] .
